@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="gridcontainer_vragenlijst">
+    
+      <nav>
+        <ul class="navcontainer"> 
+          <li><a href="index.html">De Maan</a></li>
+          <li><a href="maanreizen.html">Mensen op de maan</a></li>
+          <li><a href="maanfases.html">Maanfases</a></li>
+          <li><a href="maankracht.html">Maankracht</a></li>
+          <li><a href="vragenlijst.html">Vragenlijst</a></li>
+        </ul>
+      </nav>
+    
+      <figure class="vragenlijst_foto1">
+        <img class="img_photo" src="jijendemaan.jpg" alt="Jij en de maan"/>
+      </figure>
+
+      <div class="vragenlijst_form">
+        <header>
+          <h3>Vul hier mijn vragenlijst in</h3>
+        </header>
+
+        <form data-netlify="true">
+          <div class="enquete"> 
+            <label>Naam: </label><input type="text" name="name"></div>
+
+          <div class="enquete">
+            <label>email: </label><input type="text" name="email"><br></div>
+
+          <div class="enquete">
+            Geslacht:<br>
+            <input type="radio" name="geslacht" value="man"><label> Man</label><br>
+            <input type="radio" name="geslacht" value="vrouw"><label> Vrouw</label><br>
+            <input type="radio" name="geslacht" value="anders"><label> Anders</label>
+          </div>
+
+          <div class="enquete">
+            <label>Wat is je lievelingskleur?</label>
+            <br>
+            <input type="color" name="favcolor">
+          </div>
+
+          <div class="enquete">
+            Kruis aan wat van toepassing is:
+            <br>
+            <input type="checkbox" name="Kijken_maan" value="Maan"><label> Ik kijk graag naar de maan</label><br>
+            <input type="checkbox" name="Kijken_sterren" value="sterren"><label> Ik kijk graag naar de sterren</label><br>
+            <input type="checkbox" name="Kijken" value="niet"><label> Ik kijk nooit omhoog</label>
+          </div>
+
+          <div class="enquete">
+            De stand van de maan heeft invloed op hoe ik mij voel
+            <input type="radio" name="invloed" value="ja"><label> Ja</label>
+            <input type="radio" name="invloed" value="nee"><label> Nee</label>
+          </div>
+
+          <div class="enquete">
+            <textarea name="maanverhaal">Vertel hier jouw maan verhaal</textarea>
+          </div>
+
+          <div class="enquete">
+            <input type="reset" value="Reset">
+          </div>
+
+          <div class="enquete">
+            <input type="submit"/>
+          </div>
+          
+        </form>
+      </div>
+
+      <figure class="vragenlijst_foto2">
+        <img class="img_photo" src="jijendemaan2.jpg" alt="Jij en de maan 2"/>
+      </figure>
+
+      <footer>
+        <hr>
+        <address>
+            Mail mij <a href="mailto:jitske@tothemoon.com"> Jitske </a>
+        </address>
+      </footer>
+         
+    </div>
+  </body>
+</html>
